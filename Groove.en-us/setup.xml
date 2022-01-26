@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=lS4ELvYolQtHe2p+RXAKElvH9vOElYTlo3Iu/R9EQx7z36Ao+SYiKXYzZza80feMlirlQ0ppJUyNNjIuCQmYvGUgCKaAzDC8V1JH/9FZhjztE+3eHlGo8micXT+0kVpv8oxkmjVArMQfjyC0IKATFQLsTk8aTAnegElR+BaczA8=-->
+<Setup Id="Groove.en-us" Type="AddOn" Keyword="GrooveMUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="GrooveFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+	</Option>
+	<PackageRef Path="GrooveMUI.xml"/>
+	<LocalCache DownloadCode="{90140000-00BA-0409-1000-0000000FF1CE}" SkuComponentDirectory="Groove.en-us">
+		<File Id="GrooveMUI.xml" MD5="DC58EB0CE3EE65A9DC9F67ABB68AAF38" Size="913" RelativeCachePath="GrooveMUI.xml" RelativeSourcePath="GrooveMUI.xml"/>
+		<File Id="GrooveMUI.msi" MD5="16F9413BB43086FC12EFED447369669E" Size="2507776" RelativeCachePath="GrooveMUI.msi" RelativeSourcePath="GrooveMUI.msi"/>
+		<File Id="GrooveLR.cab" MD5="5D1C0A91BE1618880EA341B270C30327" Size="4095519" RelativeCachePath="GrooveLR.cab" RelativeSourcePath="GrooveLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>
